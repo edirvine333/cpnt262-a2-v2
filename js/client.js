@@ -154,14 +154,15 @@ function insert(item, index) {
   
    main.innerHTML = main.innerHTML + `<img src="${images[index].imgURL}" alt="a broken image"></img>`;
  
-  }
-  // ****************************************  COMMENTS  **************************************************
-  //
-  //  Line 149:  Declares "main" and grips to the <main> element
-  //  Line 151:  Starts a forEach() loop using the callback function "insert"
-  //  Line 153:  The function statement for the "insert" function
-  //  Line 155:  Sets the .innerHTML of "main" to be last value of .innerHTML plus the next <img> statement
-  //             In this way, each image is added to .innerHTML creating a list of <img> elements
-  //
-  //  *****************************************************************************************************
+}
+
+// ****************************************  COMMENTS  **************************************************
+//
+//  Line 149:  Declares "main" and grips to the <main> element
+//  Line 151:  Starts a forEach() loop using the callback function "insert"
+//  Line 153:  The function statement for the "insert" function
+//  Line 155:  Sets the .innerHTML of "main" to be last value of .innerHTML plus the next <img> statement
+//             In this way, each image is added to .innerHTML creating a list of <img> elements
+//
+//  *****************************************************************************************************
   
